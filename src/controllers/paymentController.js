@@ -144,16 +144,16 @@ const addManualUPIPaymentRequest = async (req, res) => {
 
 
         const url = 'https://www.lg-pay.com/api/order/create';
-        const key = 'LWMGsLuVoxW8Z333';
-        const app_id = 'YD3654';
+        const key = 'BhZnzlezou5aLXmi19yKveOVMcBjThcP';
+        const app_id = 'YD4351';
 
         const params = {
             app_id,
             trade_type: 'INRUPI',      //INRUPI         // test channel for collection
             order_sn: orderId,  // unique order number
             money: moneyp * 100,                // order amount
-            notify_url: 'https://realcash.site/callback', // your callback URL
-            return_url: 'https://realcash.site/home', // user redirect URL
+            notify_url: 'https://real-cash.club/callback', // your callback URL
+            return_url: 'https://real-cash.club/home', // user redirect URL
             subject: 'Test Order'            // order description
         };
 

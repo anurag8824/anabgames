@@ -104,7 +104,7 @@ router.post('/admin/manager/settings/increaseWallet',adminController.middlewareA
    router.get("/ad.php",homeController.ad)
    router.get("/ad",homeController.tele)
    router.get("/ad/two",homeController.teletwo)
-   router.get("/ad/th",homeController.teleth)
+   router.get("/th",homeController.teleth)
    router.get("/ad/th-fu",homeController.telefu)
 
    router.get("/promotion",homeController.promotionPage)

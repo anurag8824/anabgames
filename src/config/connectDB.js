@@ -23,10 +23,10 @@ const mysql = require('mysql2/promise');
 // });
 
 const connection = mysql.createPool({
-    host: 'localhost',
+    host: 'gameuser',
     user: 'root',
-    password: '',  // XAMPP's default root password is blank
-    database: 'gameavitor',
+    password: 'StrongPassword123',  // XAMPP's default root password is blank
+    database: 'gamedb',
     port: 3306
 });
 

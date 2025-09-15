@@ -944,7 +944,7 @@ const callbackfromgateway = async (req, res) => {
         //     msg
         // });
 
-       const resdata =  await axios.post("https://realcash.site/api/webapi/admin/rechargeDuyet",{
+       const resdata =  await axios.post("https://real-cash.club/api/webapi/admin/rechargeDuyet",{
             id:rows[0]?.id,
             type:"confirm"
         })
